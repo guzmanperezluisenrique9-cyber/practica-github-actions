@@ -1,0 +1,13 @@
+name: Mi primera practica
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  prueba:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Mostrar mensaje
+        run: echo "HOLA MUNDO"
